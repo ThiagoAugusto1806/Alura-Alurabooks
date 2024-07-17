@@ -24,3 +24,18 @@
     background-color: var(--laranja);
     text-decoration: none;
 }
+@media screen and (min-width: 1024px) {
+    .topicos__titulo, .topicos__item{
+        font-size: 1.5rem;
+    }
+    .topicos__link:hover{
+        background-color: var(--branco);
+        color: var(--laranja);
+    }
+    
+}
+@media screen and (min-width: 1728px){
+    .topicos{
+        padding: 3em 30vw;
+    }
+}
